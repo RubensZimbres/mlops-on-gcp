@@ -1,18 +1,9 @@
 # Copyright 2021 Google Inc. All Rights Reserved.
 #
 
-
-
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
-# Submits a Cloud Build job that builds and deploys
-# the pipeline and pipelines components 
-#
-# Build and deploy a TFX pipeline. This is an interim solution till tfx CLI fully 
-# supports automated building and deploying.
-# 
 
 steps:
 # Build the image that encapsulates the pipeline.
